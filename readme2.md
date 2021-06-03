@@ -17,7 +17,7 @@ int main()
         sum = 0;
         num = i;
 
-        for(; num > 0; num /= 10)
+       
         {
             digit = num % 10;
             sum = sum + digit * digit * digit;
